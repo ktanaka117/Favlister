@@ -11,6 +11,7 @@
 		293852E81C2A7FEC00AA9461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293852E61C2A7FEC00AA9461 /* Main.storyboard */; };
 		293852EA1C2A7FEC00AA9461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293852E91C2A7FEC00AA9461 /* Assets.xcassets */; };
 		293852ED1C2A7FEC00AA9461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293852EB1C2A7FEC00AA9461 /* LaunchScreen.storyboard */; };
+		2980BA921C2FC6BC006FD0CA /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980BA911C2FC6BC006FD0CA /* TimelineTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		293852E91C2A7FEC00AA9461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		293852EC1C2A7FEC00AA9461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		293852EE1C2A7FEC00AA9461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2980BA911C2FC6BC006FD0CA /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				293852E21C2A7FEC00AA9461 /* AppDelegate.swift */,
+				2980BA911C2FC6BC006FD0CA /* TimelineTableViewController.swift */,
 				293852E61C2A7FEC00AA9461 /* Main.storyboard */,
 				293852E91C2A7FEC00AA9461 /* Assets.xcassets */,
 				293852EB1C2A7FEC00AA9461 /* LaunchScreen.storyboard */,
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2980BA921C2FC6BC006FD0CA /* TimelineTableViewController.swift in Sources */,
 				293852E31C2A7FEC00AA9461 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
