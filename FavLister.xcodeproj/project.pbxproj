@@ -15,6 +15,7 @@
 		2980BA921C2FC6BC006FD0CA /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980BA911C2FC6BC006FD0CA /* TimelineTableViewController.swift */; };
 		298DCFFC1C6754660031B49A /* FavListerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DCFFB1C6754660031B49A /* FavListerTests.swift */; };
 		298DD00A1C6754880031B49A /* FavListerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DD0091C6754880031B49A /* FavListerUITests.swift */; };
+		298DD0121C6776C90031B49A /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DD0111C6776C90031B49A /* LoginTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		298DD0071C6754880031B49A /* FavListerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavListerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		298DD0091C6754880031B49A /* FavListerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavListerUITests.swift; sourceTree = "<group>"; };
 		298DD00B1C6754880031B49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298DD0111C6776C90031B49A /* LoginTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
 		82BC2A03B9AED81EB7910AA5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8AABB4BEFE7A9ECC30B01BA4 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2BC2AA8E13EE38AC292F4A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				298DCFFB1C6754660031B49A /* FavListerTests.swift */,
+				298DD0111C6776C90031B49A /* LoginTest.swift */,
 				298DCFFD1C6754660031B49A /* Info.plist */,
 			);
 			path = FavListerTests;
@@ -341,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				298DCFFC1C6754660031B49A /* FavListerTests.swift in Sources */,
+				298DD0121C6776C90031B49A /* LoginTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
