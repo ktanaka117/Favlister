@@ -84,14 +84,18 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods/Alamofire.framework"
-  install_framework "Pods/Bond.framework"
-  install_framework "Pods/SDWebImage.framework"
-  install_framework "Pods/SwiftyJSON.framework"
+  install_framework "Pods-FavListerTests/Alamofire.framework"
+  install_framework "Pods-FavListerTests/Bond.framework"
+  install_framework "Pods-FavListerTests/SDWebImage.framework"
+  install_framework "Pods-FavListerTests/SwiftyJSON.framework"
+  install_framework "Pods-FavListerTests/Nimble.framework"
+  install_framework "Pods-FavListerTests/Quick.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods/Alamofire.framework"
-  install_framework "Pods/Bond.framework"
-  install_framework "Pods/SDWebImage.framework"
-  install_framework "Pods/SwiftyJSON.framework"
+  install_framework "Pods-FavListerTests/Alamofire.framework"
+  install_framework "Pods-FavListerTests/Bond.framework"
+  install_framework "Pods-FavListerTests/SDWebImage.framework"
+  install_framework "Pods-FavListerTests/SwiftyJSON.framework"
+  install_framework "Pods-FavListerTests/Nimble.framework"
+  install_framework "Pods-FavListerTests/Quick.framework"
 fi
