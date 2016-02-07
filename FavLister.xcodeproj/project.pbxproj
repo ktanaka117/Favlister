@@ -13,7 +13,26 @@
 		293852EA1C2A7FEC00AA9461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293852E91C2A7FEC00AA9461 /* Assets.xcassets */; };
 		293852ED1C2A7FEC00AA9461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293852EB1C2A7FEC00AA9461 /* LaunchScreen.storyboard */; };
 		2980BA921C2FC6BC006FD0CA /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980BA911C2FC6BC006FD0CA /* TimelineTableViewController.swift */; };
+		298DCFFC1C6754660031B49A /* FavListerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DCFFB1C6754660031B49A /* FavListerTests.swift */; };
+		298DD00A1C6754880031B49A /* FavListerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DD0091C6754880031B49A /* FavListerUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		298DCFFE1C6754660031B49A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 293852D71C2A7FEC00AA9461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293852DE1C2A7FEC00AA9461;
+			remoteInfo = FavLister;
+		};
+		298DD00C1C6754880031B49A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 293852D71C2A7FEC00AA9461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293852DE1C2A7FEC00AA9461;
+			remoteInfo = FavLister;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		293852DF1C2A7FEC00AA9461 /* FavLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,6 +42,12 @@
 		293852EC1C2A7FEC00AA9461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		293852EE1C2A7FEC00AA9461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2980BA911C2FC6BC006FD0CA /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
+		298DCFF91C6754660031B49A /* FavListerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavListerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		298DCFFB1C6754660031B49A /* FavListerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavListerTests.swift; sourceTree = "<group>"; };
+		298DCFFD1C6754660031B49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298DD0071C6754880031B49A /* FavListerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavListerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		298DD0091C6754880031B49A /* FavListerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavListerUITests.swift; sourceTree = "<group>"; };
+		298DD00B1C6754880031B49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82BC2A03B9AED81EB7910AA5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8AABB4BEFE7A9ECC30B01BA4 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2BC2AA8E13EE38AC292F4A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -34,6 +59,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				019878C4B768A9BDD1A3B65B /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298DCFF61C6754660031B49A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298DD0041C6754880031B49A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				293852E11C2A7FEC00AA9461 /* FavLister */,
+				298DCFFA1C6754660031B49A /* FavListerTests */,
+				298DD0081C6754880031B49A /* FavListerUITests */,
 				293852E01C2A7FEC00AA9461 /* Products */,
 				DCEBCCA531817B591274900F /* Pods */,
 				0A3CF309FED67B343E2EBAA4 /* Frameworks */,
@@ -62,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				293852DF1C2A7FEC00AA9461 /* FavLister.app */,
+				298DCFF91C6754660031B49A /* FavListerTests.xctest */,
+				298DD0071C6754880031B49A /* FavListerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +120,24 @@
 				293852EE1C2A7FEC00AA9461 /* Info.plist */,
 			);
 			path = FavLister;
+			sourceTree = "<group>";
+		};
+		298DCFFA1C6754660031B49A /* FavListerTests */ = {
+			isa = PBXGroup;
+			children = (
+				298DCFFB1C6754660031B49A /* FavListerTests.swift */,
+				298DCFFD1C6754660031B49A /* Info.plist */,
+			);
+			path = FavListerTests;
+			sourceTree = "<group>";
+		};
+		298DD0081C6754880031B49A /* FavListerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				298DD0091C6754880031B49A /* FavListerUITests.swift */,
+				298DD00B1C6754880031B49A /* Info.plist */,
+			);
+			path = FavListerUITests;
 			sourceTree = "<group>";
 		};
 		DCEBCCA531817B591274900F /* Pods */ = {
@@ -111,6 +172,42 @@
 			productReference = 293852DF1C2A7FEC00AA9461 /* FavLister.app */;
 			productType = "com.apple.product-type.application";
 		};
+		298DCFF81C6754660031B49A /* FavListerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298DD0021C6754660031B49A /* Build configuration list for PBXNativeTarget "FavListerTests" */;
+			buildPhases = (
+				298DCFF51C6754660031B49A /* Sources */,
+				298DCFF61C6754660031B49A /* Frameworks */,
+				298DCFF71C6754660031B49A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				298DCFFF1C6754660031B49A /* PBXTargetDependency */,
+			);
+			name = FavListerTests;
+			productName = FavListerTests;
+			productReference = 298DCFF91C6754660031B49A /* FavListerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		298DD0061C6754880031B49A /* FavListerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298DD00E1C6754880031B49A /* Build configuration list for PBXNativeTarget "FavListerUITests" */;
+			buildPhases = (
+				298DD0031C6754880031B49A /* Sources */,
+				298DD0041C6754880031B49A /* Frameworks */,
+				298DD0051C6754880031B49A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				298DD00D1C6754880031B49A /* PBXTargetDependency */,
+			);
+			name = FavListerUITests;
+			productName = FavListerUITests;
+			productReference = 298DD0071C6754880031B49A /* FavListerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -123,6 +220,14 @@
 				TargetAttributes = {
 					293852DE1C2A7FEC00AA9461 = {
 						CreatedOnToolsVersion = 7.2;
+					};
+					298DCFF81C6754660031B49A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 293852DE1C2A7FEC00AA9461;
+					};
+					298DD0061C6754880031B49A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 293852DE1C2A7FEC00AA9461;
 					};
 				};
 			};
@@ -140,6 +245,8 @@
 			projectRoot = "";
 			targets = (
 				293852DE1C2A7FEC00AA9461 /* FavLister */,
+				298DCFF81C6754660031B49A /* FavListerTests */,
+				298DD0061C6754880031B49A /* FavListerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -152,6 +259,20 @@
 				293852ED1C2A7FEC00AA9461 /* LaunchScreen.storyboard in Resources */,
 				293852EA1C2A7FEC00AA9461 /* Assets.xcassets in Resources */,
 				293852E81C2A7FEC00AA9461 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298DCFF71C6754660031B49A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298DD0051C6754880031B49A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +336,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		298DCFF51C6754660031B49A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298DCFFC1C6754660031B49A /* FavListerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298DD0031C6754880031B49A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298DD00A1C6754880031B49A /* FavListerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		298DCFFF1C6754660031B49A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 293852DE1C2A7FEC00AA9461 /* FavLister */;
+			targetProxy = 298DCFFE1C6754660031B49A /* PBXContainerItemProxy */;
+		};
+		298DD00D1C6754880031B49A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 293852DE1C2A7FEC00AA9461 /* FavLister */;
+			targetProxy = 298DD00C1C6754880031B49A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		293852E61C2A7FEC00AA9461 /* Main.storyboard */ = {
@@ -342,6 +492,54 @@
 			};
 			name = Release;
 		};
+		298DD0001C6754660031B49A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FavListerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktanaka.FavListerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FavLister.app/FavLister";
+			};
+			name = Debug;
+		};
+		298DD0011C6754660031B49A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FavListerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktanaka.FavListerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FavLister.app/FavLister";
+			};
+			name = Release;
+		};
+		298DD00F1C6754880031B49A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FavListerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktanaka.FavListerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FavLister;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		298DD0101C6754880031B49A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FavListerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktanaka.FavListerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FavLister;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -362,6 +560,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		298DD0021C6754660031B49A /* Build configuration list for PBXNativeTarget "FavListerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298DD0001C6754660031B49A /* Debug */,
+				298DD0011C6754660031B49A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		298DD00E1C6754880031B49A /* Build configuration list for PBXNativeTarget "FavListerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298DD00F1C6754880031B49A /* Debug */,
+				298DD0101C6754880031B49A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
