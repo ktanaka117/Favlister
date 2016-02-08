@@ -124,12 +124,10 @@
 		293852E11C2A7FEC00AA9461 /* FavLister */ = {
 			isa = PBXGroup;
 			children = (
+				29E2743E1C68A1FC0056024C /* DataModel */,
+				29E2743C1C68A1E00056024C /* Model */,
+				29E2743D1C68A1E90056024C /* View */,
 				293852E21C2A7FEC00AA9461 /* AppDelegate.swift */,
-				298DD0171C6871A50031B49A /* Account.swift */,
-				298DD0191C6872AE0031B49A /* Login.swift */,
-				298DD0151C68622A0031B49A /* LoginViewController.swift */,
-				2980BA911C2FC6BC006FD0CA /* TimelineTableViewController.swift */,
-				293852E61C2A7FEC00AA9461 /* Main.storyboard */,
 				293852E91C2A7FEC00AA9461 /* Assets.xcassets */,
 				293852EB1C2A7FEC00AA9461 /* LaunchScreen.storyboard */,
 				293852EE1C2A7FEC00AA9461 /* Info.plist */,
@@ -153,6 +151,40 @@
 				298DD00B1C6754880031B49A /* Info.plist */,
 			);
 			path = FavListerUITests;
+			sourceTree = "<group>";
+		};
+		29E2743C1C68A1E00056024C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				298DD0191C6872AE0031B49A /* Login.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		29E2743D1C68A1E90056024C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				298DD0151C68622A0031B49A /* LoginViewController.swift */,
+				2980BA911C2FC6BC006FD0CA /* TimelineTableViewController.swift */,
+				293852E61C2A7FEC00AA9461 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		29E2743E1C68A1FC0056024C /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				29E2743F1C68A53A0056024C /* Realm */,
+				298DD0171C6871A50031B49A /* Account.swift */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		29E2743F1C68A53A0056024C /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Realm;
 			sourceTree = "<group>";
 		};
 		DCEBCCA531817B591274900F /* Pods */ = {
