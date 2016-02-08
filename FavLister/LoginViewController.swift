@@ -12,9 +12,7 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         Login.login() { [unowned self] error in
-            if error != nil {
-                print("Login failed.")
-            }
+            if error != nil { return }
             
             print(Account.twitterAccount)
         }
