@@ -17,6 +17,7 @@
 		298DD0121C6776C90031B49A /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DD0111C6776C90031B49A /* LoginTest.swift */; };
 		298DD0141C677F400031B49A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DD0131C677F400031B49A /* Login.swift */; };
 		298DD0161C68622A0031B49A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DD0151C68622A0031B49A /* LoginViewController.swift */; };
+		298DD0181C6871A50031B49A /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DD0171C6871A50031B49A /* Account.swift */; };
 		A957CFAE4B9331C63F8AC62E /* Pods_FavListerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA9473DC9758DA426716C83 /* Pods_FavListerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		298DD0111C6776C90031B49A /* LoginTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
 		298DD0131C677F400031B49A /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Login.swift; path = ../../../../../../Desktop/TwitterClient/TwitterClient/Login.swift; sourceTree = "<group>"; };
 		298DD0151C68622A0031B49A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		298DD0171C6871A50031B49A /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		6BA9473DC9758DA426716C83 /* Pods_FavListerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FavListerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BC2A03B9AED81EB7910AA5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8AABB4BEFE7A9ECC30B01BA4 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				293852E21C2A7FEC00AA9461 /* AppDelegate.swift */,
+				298DD0171C6871A50031B49A /* Account.swift */,
 				298DD0131C677F400031B49A /* Login.swift */,
 				298DD0151C68622A0031B49A /* LoginViewController.swift */,
 				2980BA911C2FC6BC006FD0CA /* TimelineTableViewController.swift */,
@@ -393,6 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				298DD0181C6871A50031B49A /* Account.swift in Sources */,
 				298DD0161C68622A0031B49A /* LoginViewController.swift in Sources */,
 				298DD0141C677F400031B49A /* Login.swift in Sources */,
 				2980BA921C2FC6BC006FD0CA /* TimelineTableViewController.swift in Sources */,
