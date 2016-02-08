@@ -6,4 +6,18 @@
 //  Copyright © 2016年 田中賢治. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class LoginViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        Login.login() { [unowned self] error in
+            if error != nil {
+                print("Login failed.")
+            }
+            
+            print(Account.twitterAccount)
+        }
+    }
+    
+}

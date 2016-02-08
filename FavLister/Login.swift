@@ -11,7 +11,7 @@ import Social
 import Accounts
 
 public struct Login {
-    public static func login() {
+    public static func login(completionHandler: (errod: NSError?) -> Void) {
         if !SLComposeViewController.isAvailableForServiceType(SLServiceTypeTwitter) { return }
         
         let store = ACAccountStore()
@@ -19,12 +19,14 @@ public struct Login {
         store.requestAccessToAccountsWithType(type, options: nil) { granted, error in
             if error != nil || !granted {
                 print("error \(error)")
+                completionHandler(errod: error)
                 return
             }
             
             let accounts = store.accountsWithAccountType(type)
             if let account = accounts.first as? ACAccount {
                 Account.twitterAccount = account
+                completionHandler(errod: nil)
             }
         }
     }
