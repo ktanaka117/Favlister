@@ -17,7 +17,15 @@ public struct Login {
         let store = ACAccountStore()
         let type = store.accountTypeWithAccountTypeIdentifier(ACAccountTypeIdentifierTwitter)
         store.requestAccessToAccountsWithType(type, options: nil) { granted, error in
-            if error != nil || !granted {
+            
+            // 承認されなかった場合
+            if !granted {
+                print("Not Granted.")
+                completionHandler(errod: NSError(domain: "LoginError.NotGranted", code: 999, userInfo: nil))
+            }
+            
+            // 何らかのエラーがあった場合
+            if error != nil {
                 print("error \(error)")
                 completionHandler(errod: error)
                 return
