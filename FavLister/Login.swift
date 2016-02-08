@@ -11,7 +11,7 @@ import Social
 import Accounts
 
 public struct Login {
-    public static func login(completionHandler: (errod: NSError?) -> Void) {
+    public static func login(completionHandler: (error: NSError?) -> Void) {
         if !SLComposeViewController.isAvailableForServiceType(SLServiceTypeTwitter) { return }
         
         let store = ACAccountStore()
@@ -21,20 +21,20 @@ public struct Login {
             // 承認されなかった場合
             if !granted {
                 print("Not Granted.")
-                completionHandler(errod: NSError(domain: "LoginError.NotGranted", code: 999, userInfo: nil))
+                completionHandler(error: NSError(domain: "LoginError.NotGranted", code: 999, userInfo: nil))
             }
             
             // 何らかのエラーがあった場合
             if error != nil {
                 print("error \(error)")
-                completionHandler(errod: error)
+                completionHandler(error: error)
                 return
             }
             
             let accounts = store.accountsWithAccountType(type)
             if let account = accounts.first as? ACAccount {
                 Account.twitterAccount = account
-                completionHandler(errod: nil)
+                completionHandler(error: nil)
             }
         }
     }
