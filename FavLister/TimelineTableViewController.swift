@@ -10,4 +10,17 @@ import UIKit
 
 class TimelineTableViewController: UITableViewController {
     
+    override func viewDidLoad() {
+        
+    }
+    
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 3
+    }
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = UITableViewCell()
+        
+        return cell
+    }
 }

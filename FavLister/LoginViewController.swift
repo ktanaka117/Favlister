@@ -15,7 +15,15 @@ class LoginViewController: UIViewController {
             if error != nil { return }
             
             print(Account.twitterAccount)
+            
+            dispatch_async(dispatch_get_main_queue()) {
+                self.transitionToTimelineTableVC()
+            }
         }
+    }
+    
+    func transitionToTimelineTableVC() {
+        performSegueWithIdentifier("PushTimelineTableVC", sender: nil)
     }
     
 }

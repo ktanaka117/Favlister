@@ -20,6 +20,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="T9z-MZ-B2o"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <segue destination="ef8-az-gl9" kind="push" identifier="PushTimelineTableVC" id="98k-Jn-PRW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F7Z-AY-rpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -35,7 +38,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="CnB-hQ-esU">
-                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CnB-hQ-esU" id="aVS-wF-VQ1">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
