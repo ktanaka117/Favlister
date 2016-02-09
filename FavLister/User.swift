@@ -6,4 +6,23 @@
 //  Copyright © 2016年 田中賢治. All rights reserved.
 //
 
-import Foundation
+import SwiftyJSON
+
+struct User {
+    var id = ""
+    // @id
+    var screenName = ""
+    var name = ""
+    var profileImageURL = ""
+    
+    init() {
+        
+    }
+    
+    init(json: JSON) {
+        self.id = json["id_str"].stringValue
+        self.screenName = json["screen_name"].stringValue
+        self.name = json["name"].stringValue
+        self.profileImageURL = json["profile_image_url_https"].stringValue
+    }
+}
