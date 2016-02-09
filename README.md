@@ -1,6 +1,6 @@
 # FavLister
 ## これはなに
-TwitterのFavを管理出来るTwitter Client
+TwitterのFavをリスト管理出来るTwitter Client
 
 ## その心は
 - プログラミングのリハビリ
