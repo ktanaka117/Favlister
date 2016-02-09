@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		019878C4B768A9BDD1A3B65B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AABB4BEFE7A9ECC30B01BA4 /* Pods.framework */; };
 		2915961B1C69FC1F0034BBF1 /* TwitterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2915961A1C69FC1F0034BBF1 /* TwitterManager.swift */; };
+		2915961D1C6A12E50034BBF1 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2915961C1C6A12E50034BBF1 /* Router.swift */; };
 		293852E31C2A7FEC00AA9461 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293852E21C2A7FEC00AA9461 /* AppDelegate.swift */; };
 		293852E81C2A7FEC00AA9461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293852E61C2A7FEC00AA9461 /* Main.storyboard */; };
 		293852EA1C2A7FEC00AA9461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293852E91C2A7FEC00AA9461 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		0509B09A9C9EBC95B34C6D69 /* Pods-FavListerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavListerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FavListerTests/Pods-FavListerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2915961A1C69FC1F0034BBF1 /* TwitterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterManager.swift; sourceTree = "<group>"; };
+		2915961C1C6A12E50034BBF1 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		293852DF1C2A7FEC00AA9461 /* FavLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		293852E21C2A7FEC00AA9461 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		293852E71C2A7FEC00AA9461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				298DD0191C6872AE0031B49A /* Login.swift */,
+				2915961C1C6A12E50034BBF1 /* Router.swift */,
 				2915961A1C69FC1F0034BBF1 /* TwitterManager.swift */,
 			);
 			name = Model;
@@ -434,6 +437,7 @@
 				298DD0181C6871A50031B49A /* Account.swift in Sources */,
 				2915961B1C69FC1F0034BBF1 /* TwitterManager.swift in Sources */,
 				298DD01A1C6872AE0031B49A /* Login.swift in Sources */,
+				2915961D1C6A12E50034BBF1 /* Router.swift in Sources */,
 				298DD0161C68622A0031B49A /* LoginViewController.swift in Sources */,
 				2980BA921C2FC6BC006FD0CA /* TimelineTableViewController.swift in Sources */,
 				293852E31C2A7FEC00AA9461 /* AppDelegate.swift in Sources */,
