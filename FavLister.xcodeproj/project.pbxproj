@@ -15,6 +15,9 @@
 		2980BA921C2FC6BC006FD0CA /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980BA911C2FC6BC006FD0CA /* TimelineTableViewController.swift */; };
 		298DD00A1C6754880031B49A /* FavListerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DD0091C6754880031B49A /* FavListerUITests.swift */; };
 		298DD0121C6776C90031B49A /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DD0111C6776C90031B49A /* LoginTest.swift */; };
+		298DD0161C68622A0031B49A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DD0151C68622A0031B49A /* LoginViewController.swift */; };
+		298DD0181C6871A50031B49A /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DD0171C6871A50031B49A /* Account.swift */; };
+		298DD01A1C6872AE0031B49A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DD0191C6872AE0031B49A /* Login.swift */; };
 		A957CFAE4B9331C63F8AC62E /* Pods_FavListerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA9473DC9758DA426716C83 /* Pods_FavListerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +53,9 @@
 		298DD0091C6754880031B49A /* FavListerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavListerUITests.swift; sourceTree = "<group>"; };
 		298DD00B1C6754880031B49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		298DD0111C6776C90031B49A /* LoginTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
+		298DD0151C68622A0031B49A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		298DD0171C6871A50031B49A /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		298DD0191C6872AE0031B49A /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		6BA9473DC9758DA426716C83 /* Pods_FavListerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FavListerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BC2A03B9AED81EB7910AA5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8AABB4BEFE7A9ECC30B01BA4 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,9 +124,10 @@
 		293852E11C2A7FEC00AA9461 /* FavLister */ = {
 			isa = PBXGroup;
 			children = (
+				29E2743E1C68A1FC0056024C /* DataModel */,
+				29E2743C1C68A1E00056024C /* Model */,
+				29E2743D1C68A1E90056024C /* View */,
 				293852E21C2A7FEC00AA9461 /* AppDelegate.swift */,
-				2980BA911C2FC6BC006FD0CA /* TimelineTableViewController.swift */,
-				293852E61C2A7FEC00AA9461 /* Main.storyboard */,
 				293852E91C2A7FEC00AA9461 /* Assets.xcassets */,
 				293852EB1C2A7FEC00AA9461 /* LaunchScreen.storyboard */,
 				293852EE1C2A7FEC00AA9461 /* Info.plist */,
@@ -144,6 +151,40 @@
 				298DD00B1C6754880031B49A /* Info.plist */,
 			);
 			path = FavListerUITests;
+			sourceTree = "<group>";
+		};
+		29E2743C1C68A1E00056024C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				298DD0191C6872AE0031B49A /* Login.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		29E2743D1C68A1E90056024C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				298DD0151C68622A0031B49A /* LoginViewController.swift */,
+				2980BA911C2FC6BC006FD0CA /* TimelineTableViewController.swift */,
+				293852E61C2A7FEC00AA9461 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		29E2743E1C68A1FC0056024C /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				29E2743F1C68A53A0056024C /* Realm */,
+				298DD0171C6871A50031B49A /* Account.swift */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		29E2743F1C68A53A0056024C /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Realm;
 			sourceTree = "<group>";
 		};
 		DCEBCCA531817B591274900F /* Pods */ = {
@@ -387,6 +428,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				298DD0181C6871A50031B49A /* Account.swift in Sources */,
+				298DD01A1C6872AE0031B49A /* Login.swift in Sources */,
+				298DD0161C68622A0031B49A /* LoginViewController.swift in Sources */,
 				2980BA921C2FC6BC006FD0CA /* TimelineTableViewController.swift in Sources */,
 				293852E31C2A7FEC00AA9461 /* AppDelegate.swift in Sources */,
 			);
