@@ -11,7 +11,9 @@ import UIKit
 class TimelineTableViewController: UITableViewController {
     
     override func viewDidLoad() {
-        
+        TwitterManager.getTimeline() { tweets in
+            
+        }
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -23,4 +25,5 @@ class TimelineTableViewController: UITableViewController {
         
         return cell
     }
+    
 }
